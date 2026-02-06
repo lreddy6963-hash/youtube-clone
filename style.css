@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: red;
+  color: white;
+  padding: 10px 20px;
+}
+
+.header input {
+  width: 300px;
+  padding: 6px;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  width: 150px;
+  height: 100%;
+  background: white;
+  padding: 10px;
+}
+
+/* Videos */
+.videos {
+  margin-left: 170px;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.video-card {
+  background: white;
+  padding: 10px;
+  width: 300px;
+  box-shadow: 0 0 5px gray;
+}
+
+.video-card iframe {
+  width: 100%;
+  height: 180px;
+}
